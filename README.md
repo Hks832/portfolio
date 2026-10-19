@@ -4,7 +4,7 @@ Personal portfolio covering AI, computer vision, full-stack development, and clo
 
 ## Live website
 
-https://hamza-engineering-portfolio.goofyhero9.chatgpt.site
+
 
 ## Files
 
