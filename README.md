@@ -1,23 +1,24 @@
 # Hamza Khan — Portfolio
 
-Personal portfolio covering AI, computer vision, full-stack development, and cloud engineering.
+A responsive portfolio built with plain HTML, CSS, and JavaScript. No framework, package installation, or build step is required.
 
-## Live website
+## Edit the portfolio
 
+- `index.html`: hero text, overview, education, contact links, page title, and description.
+- `script.js`: the skills, projects, and experience arrays; navigation and copy-email behavior.
+- `style.css`: colors (the `:root` variables), fonts, spacing, and mobile layout.
+- `Hamza_Khan_Resume.pdf`: replace this file to update the downloadable résumé, keeping the filename.
 
+The GitHub and LinkedIn links currently follow the supplied résumé. Update those links in index.html if you want to use a different account.
 
-## Files
+## Preview locally
 
-`index.html` contains the complete responsive website, including styles and JavaScript. No dependencies or build step are required.
+Run `python -m http.server 8000` from this folder, then open http://localhost:8000.
 
-## Preview
+## Publish without a ChatGPT URL
 
-Open `index.html` in a web browser.
+In repository Settings → Pages, set Source to **Deploy from a branch**, choose **main** and **/ (root)**, and Save.
 
-## GitHub Pages (optional)
+After GitHub Pages finishes deploying, the expected address is https://hks832.github.io/portfolio/ . This address is not live until Pages is enabled and deployment succeeds. Future commits to main will update that site.
 
-In this repository, open Settings → Pages. Choose **Deploy from a branch**, select **main** and **/ (root)**, then Save. GitHub will display the deployment URL when ready.
-
-## Editing
-
-Edit `index.html` to update the content and design. Contact links are awaiting confirmation. Changes in this repository do not automatically update the separately hosted live website above.
+Google Fonts supplies the typefaces; fallback fonts are defined in the stylesheet.
